@@ -6,6 +6,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {
+    // remove the item from the basket
     dispatch({
       type: "REMOVE_FROM_BASKET",
       id: id,
@@ -25,7 +26,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <span>⭐</span>
+              <p>⭐</p>
             ))}
         </div>
         <button onClick={removeFromBasket}>Remove from Basket</button>
