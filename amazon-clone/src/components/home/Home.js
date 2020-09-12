@@ -30,7 +30,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="767456"
-            title="Netac 128GB Micro SD Card, microSDXC UHS-I Memory Card - 100MB/s, 667X, U3, Class10, Full HD Video V30, A1, FAT32, High Speed Flash TF Card P500 for Smartphone/Bluetooth Speaker/Tablet/PC/Camera"
+            title="Netac 128GB Micro SD Card, microSDXC UHS-I Memory Card - 100MB/s, 667X, U3, Class10"
             price={18.99}
             image="https://images-na.ssl-images-amazon.com/images/I/61reR1Z5yAL._AC_SL1430_.jpg"
             rating={5}
