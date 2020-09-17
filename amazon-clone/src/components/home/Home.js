@@ -11,6 +11,7 @@ function Home() {
           src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
           alt=""
         />
+
         <div className="home__row">
           <Product
             id="1234765"
@@ -27,6 +28,11 @@ function Home() {
             rating={4}
           />
         </div>
+        <img
+          className="home__banner"
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/TVs/BAU/May/RiseIndia/UpdatedGW/V206289537_IN_HETV_RiseIndia_LATVFurniture_StorePage_PC_Header_1500x300.jpg"
+          alt=""
+        />
         <div className="home__row">
           <Product
             id="767456"
